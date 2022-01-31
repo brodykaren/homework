@@ -51,7 +51,7 @@ figcaption
 
 
 
-header {
+#header {
 
     background-color: #f8df1f;
     height: 90px;
@@ -60,7 +60,7 @@ header {
     position: sticky;
 
    
-.navbar {
+#navbar {
 
     display: absolute;
     justify-content: space-between;
@@ -77,13 +77,13 @@ header {
  
 }
 
-.red {
+#red {
 
     text-transform: uppercase;
 }
 
 
-.bar {
+#bar {
     display: block;
     width: 45px;
     height: -40px;
@@ -94,17 +94,17 @@ header {
 
 
 }
-.nav-menu {
+#nav-menu {
     display: flex;
     align-items: center;
 
 }
 
-.nav-item {
+#nav-item {
     margin-left: 5rem;
 }
 
-.nav-link{
+#nav-link{
     padding: -20px;
     font-size: 1.0rem;
     font-weight: 400;
@@ -112,7 +112,7 @@ header {
     text-transform: bold;
 }
 
-.nav-link:hover{
+#nav-link:hover{
     color: #482ff7;
    
 }
@@ -131,7 +131,7 @@ a {
 
 
 
-.banner {
+#banner {
     background-color: #3b3838;
     position: absolute;
     top:110px;
@@ -145,7 +145,7 @@ a {
     }
     
     
-    .b-l {
+    #b-l {
     
     position: absolute;
     text-align: center;
@@ -156,7 +156,7 @@ a {
     }
     
     
-    .b-1 {
+    #b-1 {
     
    
         top:420px;
@@ -185,7 +185,7 @@ a {
       
 
       
-      .burger {
+      #burger {
 
         display:block;
         flex-wrap:wrap;
@@ -199,7 +199,7 @@ a {
     }
     
     
-    .burgers {
+    #burgers {
     
         display:flex;
         flex-wrap:wrap;
@@ -212,7 +212,7 @@ a {
     
 
 
-    .text-box {
+    #text-box {
 
     padding: 16% 25%;
     margin-top:-380px;
@@ -223,7 +223,7 @@ a {
 
 
 
-    .guys {
+    #guys {
 
         display:block;
         flex-wrap:wrap;
@@ -237,7 +237,7 @@ a {
     }
     
     
-    .guy {
+    #guy {
     
         display:flex;
         flex-wrap:wrap;
@@ -251,7 +251,7 @@ a {
     
 
 
-    .text-box {
+    #text-box {
 
     padding: 16% 25%;
     margin-top:-380px;
@@ -261,7 +261,7 @@ a {
     }
 
 
-.guy img {
+#guy img {
 
 
     margin-top: 30px;
@@ -270,7 +270,7 @@ a {
 
 /******buttons*****/
 
-.b-2 {
+#b-2 {
 
    
 
@@ -293,7 +293,7 @@ a {
         
         }
 
-.b-3 {
+#b-3 {
 
 
     width: 140px;    
@@ -360,7 +360,7 @@ footer {
     
 
 
-.logo {
+#logo {
 
    
          position:relative;
