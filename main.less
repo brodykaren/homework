@@ -1,74 +1,37 @@
 
-
-@charset "UTF-8";
-/**********
-Universal Styles
-**********/
-header,
-nav,
-aside,
-article,
-footer,
-section,
-main,
-figure,
-figcaption 
-{display:block}
-
-
+// @import "./variables.less";
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
 
-* {
-
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-}
-     
-  
-*:focus {
-    outline: 0;
-}
-    
-
-
-.container {
-    display: flex;
-    flex-flow: row wrap;
-}
-.main {
-    flex-grow: 1;
-    flex-basis: 100%;
-    height: 400px;
-    width: 100%;
-   
-
-}
 
 
 /*****navigation****/
 
 
+@yellow:#f8df1f;
+@height:90px;
+@space:20px;
+@width:100%;
 
+.header {
 
-header {
-
-    background-color:#f8df1f;
-    height: 90px;
-    margin-top: 20px;
-    width: 100%;
+    background-color: @yellow;
+    height: @height;
+    margin-top:@space;
+    width: @width;
     position: sticky;
 
    
-.navbar {
+}
+@black:#080801;
+
+#navbar {
 
     display: absolute;
     justify-content: space-between;
     align-items: center;
-    
-    color:#080801;
+    color:@black;
     margin: 10px;
     margin-top: 50%;
     bottom:50%;
@@ -77,7 +40,7 @@ header {
 
 
  
-}
+
 
 .red {
 
@@ -289,7 +252,7 @@ a {
         border-radius: 8px;
         border:0; 
         text-align: center;
-        text-transform: uppercase; bold;
+        text-transform: uppercase; 
         cursor: pointer;
         
         
@@ -378,22 +341,33 @@ footer {
 
 
     /*****Media Queries*****/
+    @media only screen and (max-width:1220px) {
+    
+    
+        .header,.navbar,.container,.burger,.guys,.logo,.footer,.p.button,.banner,.h2 {
+    
+    
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width:920px) {
 
 
+        .header,.navbar,.container,.burger,.guys,.logo,.footer,.p.button,.banner,.h2 {
+    
+    
+            width: 100%;
+        }
+    }
+    
+    
+    
+  
 
 @media only screen and (max-width:620px) {
 
 
-    .header,.navbar,.container,.burger,.guys,.logo,.footer,.p.button,.banner,.h2 {
-
-
-        width: 100%;
-    }
-}
-
-
-@media only screen and (max-width:920px) {
-
 
     .header,.navbar,.container,.burger,.guys,.logo,.footer,.p.button,.banner,.h2 {
 
@@ -404,14 +378,6 @@ footer {
 
 
 
-@media only screen and (max-width:1220px) {
-
-
-    .header,.navbar,.container,.burger,.guys,.logo,.footer,.p.button,.banner,.h2 {
-
-
-        width: 100%;
-    }
 
 
 
@@ -440,15 +406,17 @@ footer {
 
 
     }
+}
 
 
-    @media only screen and (max-width 620px) {
+    @media only screen and (max-width: 620px) {
 
 
 .images {
 
 display:block;
 
+}   
+
 }
 
-    }
